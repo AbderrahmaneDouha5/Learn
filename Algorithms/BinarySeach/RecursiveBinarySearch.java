@@ -9,7 +9,7 @@ public class RecursiveBinarySearch {
     // @param l the lower value in the array -a-
     // @param the higher in the array -a-
     //
-    int BinarySearch(int a[], int k, int l, int h){
+    private int BinarySearch(int a[], int k, int l, int h){
         
         int mid = l+(h-l)/2;
 
